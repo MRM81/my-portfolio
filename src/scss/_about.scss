@@ -1,0 +1,33 @@
+.about-container {
+    text-align: center;
+    padding: 60px 200px;
+    width: 70%;
+
+    h1 {
+        font-family: var(--permanent-marker);
+        text-transform: uppercase;
+        padding: 20px 0px 50px 0px;
+        color: var(--secondary-text-color);
+    }
+
+    p {
+        font-family: var(--paragraph-font-family);
+        line-height: 30px;
+        color: var(--secondary-text-color);
+        // font-size: 1.3em;
+    }
+
+    .github-links {
+        margin-top: 40px;
+    
+        p {
+            font-weight: bold;
+        }
+
+        a {
+            font-size: 3em;
+            padding-top: 5px;
+            color: var(--primary-color);
+        }
+    }
+}

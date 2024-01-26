@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "ivy mae photography",
+        "url": "https://ivy-mae-photograpy-a3.netlify.app/",
+        "elementName": "ivy-mae",
+        "image": "ivy-mae.png",
+        "projectType": "university",
+        "frontend": ["HTML", "CSS", "JS" ],
+        "backend": [],
+        "frontendDeployed": "Netlify",
+        "backendDeployed": ""
+    },
+    {
+        "id": 2,
+        "title": "vita-fun",
+        "url": "https://vita-fun.herokuapp.com/",
+        "elementName": "vita-fun",
+        "image": "vita-fun.png",
+        "projectType": "university group",
+        "frontend": ["EJS", "CSS", "JS" ],
+        "backend": ["Node.js, MongoDB"],
+        "frontendDeployed": "Heroku",
+        "backendDeployed": ""
+    },
+    {
+        "id": 3,
+        "title": "the cheetah",
+        "url": "https://thecheetah.netlify.app/#home",
+        "elementName": "the-cheetah",
+        "image": "the-cheetah.png",
+        "projectType": "university",
+        "frontend": ["HTML", "CSS", "JS", "GSAP", "Shoelace" ],
+        "backend": [],
+        "frontendDeployed": "Netlify",
+        "backendDeployed": ""
+    },
+    {
+        "id": 4,
+        "title": "all out organic",
+        "url": "/404",
+        "elementName": "all-out-organic",
+        "image": "all-out-organic.png",
+        "projectType": "personal",
+        "frontend": ["React", "Next.js", "MUI"],
+        "backend": ["ASP.NET", "SQL", "Docker"],
+        "frontendDeployed": "Vercel",
+        "backendDeployed": "AWS EC2"
+    },
+    {
+        "id": 5,
+        "title": "pet link",
+        "url": "https://pet-link.netlify.app/",
+        "elementName": "pet-link",
+        "image": "pet-link.png",
+        "projectType": "university",
+        "frontend": ["HTML", "Sass", "JS" ],
+        "backend": ["Node.js", "MongDB"],
+        "frontendDeployed": "Netlify",
+        "backendDeployed": ""
+    }
+]

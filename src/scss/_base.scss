@@ -1,0 +1,89 @@
+// Base
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.active {
+  border-bottom: solid 5px var(--teal);
+  font-weight: bold;
+}
+
+.mobile-active {
+  background-color: var(--primary-color);
+  font-weight: bold;
+}
+
+.page-container {
+  padding-top: var(--header-height);
+  width: 100%;
+}
+
+.flex-center-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-left-column {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+// Back to top button syyling
+.back-to-top-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: grid;
+  place-items: center;
+  height: 55px;
+  width: 55px;
+  background-color: rgba(231, 231, 231);
+  border-radius: 50%;
+  border: solid 1px var(--primary-color);
+  font-size: 1.8em;
+  color: var(--secondary-text-color);
+  z-index: 4;
+  opacity: 0.9;
+}
+
+.back-to-top-container:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+// Footer styling
+.footer-container {
+  background-color: var(--background-color);
+  position: relative;
+  width: 100%;
+  height: 100px;
+  z-index: 2;
+
+  .linkedin-icon {
+    font-size: 2em;
+    color: var(--primary-color);
+    padding: none;
+    margin: none;
+  }
+
+  h6 {
+    font-size: 0.9em;
+    color: var(--secondary-text-color);
+  }
+}

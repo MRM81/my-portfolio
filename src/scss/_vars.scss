@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+@font-face {
+  font-family: "myriad";
+  src: url('../../public/myriad-pro.otf'),
+}
+
+// Vars
+:root {
+
+  // Fonts
+  --heading-font-family: 'Playfair Display', serif;
+  --paragraph-font-family: 'Montserrat', sans-serif;
+  --permanent-marker: 'Permanent Marker', cursive;
+  --open-sans: font-family: 'Open Sans', sans-serif;
+  --myriad-pro: font-family: 'myriad'
+  // base
+  --shadow: 2px 2px 4px grey;
+  --header-height: 100px;
+
+  // colors  
+  --teal: #01BDDA;
+  --black: black;
+  --white: white;
+  --text: rgb(121, 121, 121);
+}
