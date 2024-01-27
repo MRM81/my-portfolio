@@ -5,7 +5,27 @@
 
 @font-face {
   font-family: "myriad";
-  src: url('../../public/myriad-pro.otf'),
+  src: url('/fonts/myriad-pro.otf'),
+}
+
+@font-face {
+  font-family: "brandon-thin";
+  src: url('/fonts/brandon/thin.otf');
+}
+
+@font-face {
+  font-family: "brandon-regular";
+  src: url('/fonts/brandon/regular.otf');
+}
+
+@font-face {
+  font-family: "brandon-medium";
+  src: url('/fonts/brandon/medium.otf');
+}
+
+@font-face {
+  font-family: "brandon-bold";
+  src: url('/fonts/brandon/bold.otf');
 }
 
 // Vars
@@ -16,7 +36,7 @@
   --paragraph-font-family: 'Montserrat', sans-serif;
   --permanent-marker: 'Permanent Marker', cursive;
   --open-sans: font-family: 'Open Sans', sans-serif;
-  --myriad-pro: font-family: 'myriad'
+  
   // base
   --shadow: 2px 2px 4px grey;
   --header-height: 100px;

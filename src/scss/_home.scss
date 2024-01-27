@@ -87,7 +87,7 @@
         }
 
         .asp-icon {
-            left: 10px;
+            right: 10px;
             bottom: 10px;
         }
     }
@@ -97,34 +97,148 @@
     margin-top: calc(100vh - var(--header-height));
 }
 
-#home-content {
+.home-content {
     position: relative;
-    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--white);
+    box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.5),
+        inset 0 -10px 10px -10px rgba(0, 0, 0, 0.5);
     z-index: 2;
-    padding-top: 50px;
-    position: relative;
     min-height: 100vh;
 
+    // Styling for ExperienceTable component
+    .experience-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 0px;
+
+        .content-heading {
+            height: 200px;
+            width: 60%;
+            padding-bottom: 100px;
+
+            h1 {
+                font-size: 2.5em;
+                color: var(--black);
+                text-transform: uppercase;
+                margin-bottom: 30px;
+                line-height: 60px;
+                font-family: brandon-medium;
+                width: 80%;
+            }
+        }
+
+        .content-text {
+            display: flex;
+            width: 60%;
+        }
+
+        .text {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 10px 40px 10px 0px;
+        }
+
+        .item {
+            display: flex;
+            font-family: brandon-regular;
+            color: text;
+            font-size: 1.3em;
+            height: 20%;
+            line-height: 1.2;
+
+
+            span {
+                color: green;
+                padding: 5px 10px;
+            }
+        }
+    }
+
+    // Styling for RecentWork component
+    .recent-work {
+        padding: 100px 0px;
+        width: 80%;
+
+
+        h1 {
+            font-size: 2.5em;
+            color: var(--black);
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            font-family: brandon-medium;
+            text-align: center;
+        }
+
+
+
+        .work-item {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            padding-top: 60px;
+
+
+
+            img {
+                height: 450px;
+                box-shadow: 3px 3px 5px grey;
+            }
+
+            h4 {
+                font-family: brandon-thin;
+                font-size: 1.5em;
+                text-transform: uppercase;
+                color: rgb(76, 76, 76);
+            }
+
+            h6 {
+                font-family: brandon-bold;
+                font-size: 0.8em;
+                color: var(--teal);
+                text-transform: uppercase;
+            }
+        }
+
+        .work-item:nth-child(2n) {
+            align-items: start;
+        }
+
+
+    }
+
     .tech-icons {
-        position: absolute;
-        top: 10px;
         background-image: url('tech-icons.png');
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        height: 250px;
+        height: 100px;
         width: 100%;
+        // background-color: var(--white);
+        // box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.5),
+        //     inset 0 -10px 10px -10px rgba(0, 0, 0, 0.5);
     }
 }
 
-.react-icon, .asp-icon {
+.react-icon {
     width: 100px;
     height: 100px;
-    animation: bounceAndRotate 20s infinite;
+    animation: reactBounceAndRotate 10s infinite;
 }
 
-@keyframes bounceAndRotate {
+.asp-icon {
+    width: 100px;
+    height: 100px;
+    animation: aspBounceAndRotate 10s infinite;
+}
+
+
+@keyframes reactBounceAndRotate {
 
     0%,
     100% {
@@ -135,3 +249,24 @@
         transform: translatex(500px) rotate(360deg);
     }
 }
+
+@keyframes aspBounceAndRotate {
+
+    0%,
+    100% {
+        transform: translateY(0) rotate(0);
+    }
+
+    50% {
+        transform: translatex(-500px) rotate(-360deg);
+    }
+}
+
+.element {
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
+
+
+
