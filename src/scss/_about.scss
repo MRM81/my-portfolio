@@ -1,7 +1,8 @@
 .about-container {
     text-align: center;
-    padding: 60px 200px;
+    padding: 50px 200px;
     width: 70%;
+    min-height: calc(100vh - 200px);
 
     h1 {
         font-family: var(--permanent-marker);
@@ -17,6 +18,8 @@
         // font-size: 1.3em;
     }
 
+
+
     .github-links {
         margin-top: 40px;
     
@@ -25,9 +28,14 @@
         }
 
         a {
-            font-size: 3em;
+            font-size: 5em;
             padding-top: 5px;
-            color: var(--primary-color);
+            color: var(--teal);
+        }
+
+        a:hover {
+            opacity: 0.7;
         }
     }
+
 }

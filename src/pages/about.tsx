@@ -6,22 +6,16 @@ const About = () => {
       <div className="about-container flex-center-column">
         <h1> About</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex numquam
-          neque quos autem animi aspernatur deleniti harum rem nulla, temporibus
-          laborum reprehenderit natus commodi illum magni quisquam accusamus a
-          odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-          alias veritatis voluptatibus ex facilis blanditiis officiis sapiente
-          dolores maxime quae iste modi doloremque vitae illo sit quod ipsa,
-          ullam id. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Cupiditate facere quia neque ut reiciendis repellat, consequatur
-          dolores aperiam officiis aut qui, ab id inventore repudiandae
-          excepturi illum pariatur harum voluptatibus. Lorem ipsum dolor sit,
-          amet consectetur adipisicing elit. Debitis, accusamus similique harum,
-          dolorem fuga optio magnam saepe explicabo recusandae totam iste rem.
-          Nostrum ratione quos iusto at autem optio dignissimos. Lorem ipsum
-          dolor sit, amet consectetur adipisicing elit. Totam aspernatur veniam
-          quisquam tenetur odio labore quos aliquam voluptas, ad saepe sed
-          quaerat minus aperiam natus quibusdam tempora, quasi illum soluta?
+          Experienced boat builder since 2000, I've worked in medium sized
+          production teams with roles including production manager, fitout and
+          quality control on boats ranging from 18 foot kayaks to 77 foot luxury
+          yachts. I pride myself on loyalty, commitment, and reliability and I'm
+          currently poised for a career change after graduating with a Bachelor
+          of IT from RMIT University with high distinctions. Proficient in Java,
+          JavaScript, .NET, C#, React.js, and AWS integration. Passionate about
+          web and software development, eager to leverage my skill set and ready
+          to embark on new challenges, build further upon my skill set, and
+          contribute towards innovative and meaningful projects.
         </p>
         <div className="github-links">
           <p>

@@ -30,7 +30,7 @@
         "elementName": "the-cheetah",
         "image": "the-cheetah.png",
         "projectType": "university",
-        "frontend": ["HTML", "CSS", "JS", "GSAP", "Shoelace" ],
+        "frontend": ["JS", "GSAP" ],
         "backend": [],
         "frontendDeployed": "Netlify",
         "backendDeployed": ""

@@ -2,7 +2,7 @@ import BackToTop from "../components/BackToTop";
 import Introduction from "../components/Introduction";
 import ExperienceTable from "../components/ExperienceTable";
 import ImageSlider from "../components/ImageSlider";
-import RecentProjects from "../components/RecentProjects";
+import RecentWork from "../components/RecentWork";
 
 
 
@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <section className="page-container">
-      {/* Buck to top button */}
+      {/* Back to top button */}
       <BackToTop />
 
       {/* Introduction on home page section */}
@@ -21,13 +21,13 @@ const Home = () => {
       <div className="divider-400"></div>
 
       {/* Main home content */}
-      <div className="home-content">
+      <div className="project-content">
         {/* Content display my experience */}
         <ExperienceTable />
 
         <div className="tech-icons"></div>
 
-      <RecentProjects />
+      <RecentWork/>
 
       {/* <ImageSlider /> */}
       </div>

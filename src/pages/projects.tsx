@@ -1,6 +1,8 @@
 import Project from "../components/Project";
 import { useState, useEffect } from "react";
-
+import RecentWork from "../components/RecentWork";
+import BackToTop
+ from "../components/BackToTop";
 const Projects = () => {
   const [projects, setProjects] = useState([]);
 
@@ -20,12 +22,9 @@ const Projects = () => {
 
   return (
     <section className="page-container">
-      <div className="projects-container">
-        {projects.map((project: any) => (
-          <div key={project.id}>
-            <Project project={project} />
-          </div>
-        ))}
+      <BackToTop />
+      <div className="project-content">
+        <RecentWork />
       </div>
     </section>
   );

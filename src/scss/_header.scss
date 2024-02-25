@@ -31,6 +31,15 @@ header {
 
   @media only screen and (max-width: 900px) {
     .hamburger {
+      font-size: 2.1em;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+
+    padding: 10px 20px;
+
+    .hamburger {
       display: block;
     }
   }
@@ -53,7 +62,10 @@ header {
       text-transform: capitalize;
       padding: 10px 15px;
       display: inline;
-      color: var(--white)
+
+      a {
+        color: var(--white);
+      }
     }
 
     .linkedin-icon {
@@ -78,29 +90,29 @@ header {
   .logo {
     font-family: myriad;
     font-size: 2.2em;
-    color: var(--white);
     text-transform: uppercase;
-   
+
+    a {
+      color: var(--white);
+    }
+
     span {
       background-color: var(--teal);
       color: var(--black);
       padding: 5px 10px;
       border-radius: 10px;
-     
     }
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     .logo {
-      font-size: 2em;
+      font-size: 1.4em;
     }
+  }
 
-    ul {
-      flex-direction: column;
-    }
-
-    .hamburger {
-      order: 1;
+  @media only screen and (max-width: 400px) {
+    .logo {
+      font-size: 1.2em;
     }
   }
 }
@@ -111,24 +123,35 @@ header {
   top: 0;
   height: 100vh;
   width: 100vw;
-  background-color: rgb(0, 0, 0, 0.2);
+  background-color: rgb(0, 0, 0);
   z-index: 2;
 
   .mobile-menu-logo {
-    font-family: var(--permanent-marker);
-    font-size: 2.8em;
-    color: var(--primary-color);
-    margin-bottom: 30px;
+    font-family: myriad;
+    font-size: 2em;
+    text-transform: uppercase;
+
+    span {
+      background-color: var(--teal);
+      color: var(--black);
+      padding: 5px 10px;
+      border-radius: 10px;
+    }
+
+    a {
+      color: var(--white);
+    }
   }
 
   nav {
     position: relative;
     height: 100vh;
     padding: 50px 20px;
-    width: 50%;
+    width: 50vw;
     background-color: var(--background-color);
     z-index: 2;
     padding-top: 80px;
+    box-shadow: 2px 2px 2px black;
 
     i {
       position: absolute;
@@ -140,13 +163,18 @@ header {
 
     li {
       font-family: var(--paragraph-font-family);
-      ;
       font-size: 1.2em;
       list-style: none;
       text-transform: capitalize;
-      padding: 10px 50px;
+      padding: 10px 30px;
       margin-top: 15px;
+
+      a {
+        color: var(--white);
+      }
     }
+
+
 
     .linkedin-icon {
       font-size: 3em;
@@ -156,17 +184,18 @@ header {
 
   @media only screen and (max-width: 750px) {
     nav {
-      width: 80%;
+      width: 80vw;
     }
   }
 
   @media only screen and (max-width: 500px) {
+
     nav {
-      width: 100%;
+      width: 100vw;
     }
 
     .mobile-menu-logo {
-      font-size: 2em;
+      font-size: 1.2em;
     }
   }
 }
